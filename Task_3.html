@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+        <nav>
+            <div class="leftside">
+                <a href="Task_2.html">
+                    <img src="Galerry/logo.png">
+                </a>
+                <ol>
+                    <a href="Task_2.html"></a>
+                    <li>
+                        <a href="Task_2.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">My Project</a>
+                    </li>
+                </ol>
+            </div>
+            <div class="rightside">
+                <a href="Task_2.html">Contact Me</a>
+            </div>
+        </nav>
+        <div class="formcontact">
+            <div class="containerform">
+                <form>
+                    <h2>Get in Touch</h2>
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="samsar">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="samsar@gmail.com">
+                    </div>
+                    <div>
+                        <label for="phonenumber">Phone Number</label>
+                        <input type="text" id="phonenumber" placeholder="0853522">
+                    </div>
+                    <div>
+                        <label for="subject">Subject</label>
+                        <select id="subject">
+                            <option>Lets Talk</option>
+                            <option>Lets Cokllaboration</option>
+                            <option>Im hiring</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="message"> Your Message</label>
+                        <textarea cols="20" rows="5" id="message" placeholder="Keterangan....."></textarea>
+                    </div>
+                    <button type="button" onclick="showData()">Submit</button>
+                </form>
+            </div>
+        </div>  
+        <script src="Contact.js"></script>
+    </body>
+</html>
